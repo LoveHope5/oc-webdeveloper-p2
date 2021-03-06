@@ -4,9 +4,24 @@
 }
 
 body{
-    background-color: #000;
+ 
 }
-h1 {
-  color:yellow;
-  font-size:19px;
+header{
+    border:1px solid black;
+    min-height:100px;
+    padding:15px;
+}
+main {
+    border:1px solid black;
+    min-height:100px;
+    padding:15px;
+}
+section{
+    border:1px solid black;
+    min-height:200px;
+
+}
+footer{
+    border:1px solid black;
+    min-height:100px;
 }
