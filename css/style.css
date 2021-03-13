@@ -4,6 +4,8 @@
 }
 
 body{
+    font-family: raleway;
+    font-size:12px;
  
 }
 header{
@@ -11,14 +13,69 @@ header{
     min-height:100px;
     padding:15px;
 }
+header div{
+    border:1px solid black;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    height:60px;
+    border:1px solid black;
+}
+nav div {
+    border:1px solid black;
+}
+
+#logo{
+    width:70%;
+    padding-top:1%;
+    
+}
+.logo-img{
+    height:40px;
+}
+#menu{
+   width:20%;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+}
+#menu li {
+    border:1px solid black;
+    width:50%;
+    text-align: center;
+    padding-top:8%;
+
+}
+#sign-up{
+    width:10%;
+    text-align: center;
+    padding-top:20px;
+}
+
 main {
     border:1px solid black;
     min-height:100px;
     padding:15px;
 }
+
+#accomodation{
+    display: flex;
+    flex-direction: row;
+}
+#accomodation-list{
+    border:1px solid black;
+    width:68%;
+    margin:10px;
+}
+#most-popular{
+    border:1px solid black;
+    width:30%;
+    margin:10px;
+}
 section{
     border:1px solid black;
-    min-height:200px;
+    min-height:100px;
 
 }
 footer{
